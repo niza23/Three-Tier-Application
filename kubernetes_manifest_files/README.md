@@ -33,6 +33,15 @@ Created **Kubernetes manifests** for each tier of the MERN app.
 - **Backend (Node.js API)** → uses **your custom ECR image** (`mern-backend:v1`).
 - **Frontend (React)** → uses **your custom ECR image** (`frontend:latest`).
 
+#### SUMMARY
+- MongoDB = database layer with persistent storage.
+
+- Backend = Node.js API that talks to MongoDB.
+
+- Frontend = React app that talks to backend.
+
+- Ingress (ALB) = entry point, routes external traffic to frontend/backend.
+
 So you have **two container images you built and pushed**, and they are used in the backend and frontend deployments. MongoDB runs directly from the official Docker Hub image.
 
 ---
