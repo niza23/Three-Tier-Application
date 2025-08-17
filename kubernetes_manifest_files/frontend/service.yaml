@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata: 
+  name: frontend
+  namespace: three-tier
+spec:
+  type: ClusterIP                # Internal service (exposed via Ingress)
+  ports:
+  - port: 3000
+    protocol: TCP
+  selector:
+    role: frontend
