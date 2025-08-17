@@ -1,6 +1,4 @@
 
-
-````markdown
 # MERN Three-Tier Application on AWS EKS
 
 This project demonstrates how to deploy a **MERN stack (MongoDB, Express/Node.js, React)** three-tier application on **Amazon EKS (Elastic Kubernetes Service)**.  
@@ -14,7 +12,6 @@ The deployment includes containerizing the application, pushing images to Amazon
 - **Infrastructure**: AWS EC2, EKS, ECR, IAM, ALB
 - **Tools**: Docker, eksctl, kubectl, Helm
 
-````
 ## 🚀 Steps to Deploy
 
 ### 1. Install AWS CLI 
